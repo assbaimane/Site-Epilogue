@@ -231,4 +231,78 @@ footer p {
   font-size: 6px;
 }
 
+/*____________________________________*/
+h2, i {
+  font-size: small;
+}
+
+p {
+  font-size: 10px;
+  padding: 5% 15%;
+}
+
+.btn {
+  font-size: 8px;
+}
+
+.banner {
+  height: 300px;
+  background-size: 100%;
+}
+.banner h1 {
+  font-size: xx-large;
+}
+.banner h4 {
+  padding-top: 20px;
+  font-size: small;
+}
+
+.intro {
+  margin: 20px 120px;
+  background-color: white;
+  padding: 20px;
+}
+.intro .far {
+  height: 8px;
+  width: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  gap: 8px;
+  margin: 20px 120px;
+}
+.gallery h2 {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: small;
+}
+.gallery .pic {
+  height: 180px;
+}
+.gallery .col {
+  padding: 0px 0px 20px 0px;
+}
+
+.conclusion {
+  padding: 20px 80px;
+}
+
+.hr {
+  width: 100px;
+}
+
+.social {
+  margin-left: 43%;
+  padding-top: 20px;
+}
+.social .icon {
+  font-size: 6px;
+  margin: 4px;
+}
+
+footer p {
+  font-size: 8px;
+}
+
 /*# sourceMappingURL=style.css.map */
