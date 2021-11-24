@@ -8,7 +8,7 @@ body {
 }
 
 h2, i {
-  font-size: medium;
+  font-size: xx-large;
   letter-spacing: 1.8px;
   text-transform: uppercase;
   color: grey;
@@ -16,9 +16,9 @@ h2, i {
 
 p {
   text-align: center;
-  font-size: xx-small;
-  padding: 5% 15%;
+  font-size: medium;
   color: grey;
+  padding: 40px;
 }
 
 .btn {
@@ -28,7 +28,7 @@ p {
   border-radius: 1px;
   text-transform: uppercase;
   width: max-content;
-  font-size: xx-small;
+  font-size: small;
   background-color: white;
 }
 
@@ -39,6 +39,7 @@ p {
   text-align: center;
   color: white;
   background-image: url(../img/banner.jpg);
+  width: 100%;
   height: 600px;
 }
 .banner h1 {
@@ -56,30 +57,35 @@ p {
 }
 
 .intro {
+  width: 80%;
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin: 50px 150px;
+  margin: 40px auto;
   background-color: white;
-  padding: 50px;
+  padding: 40px 0px;
 }
 .intro .far {
   border: 1px solid grey;
   border-radius: 50%;
   height: 17px;
   width: 17px;
-  padding: 10px;
+  padding: 17px;
   margin-bottom: 20px;
+}
+.intro p {
+  padding: 20px 220px;
 }
 .intro button {
   text-align: center;
 }
 
 .gallery {
+  width: 80%;
   display: grid;
-  gap: 10px;
+  gap: 20px;
   text-align: center;
-  margin: 50px 150px;
+  margin: 50px auto;
 }
 .gallery h2 {
   color: rgba(255, 255, 255, 0.6);
@@ -96,7 +102,7 @@ p {
 }
 .gallery .col {
   background-color: white;
-  padding: 0px 0px 30px 0px;
+  padding: 0px 0px 50px 0px;
 }
 .gallery .card1 {
   grid-column: 1/2;
@@ -137,174 +143,178 @@ p {
 }
 
 .hr {
-  display: flex;
-  justify-content: center;
+  margin: 0px auto;
   width: 100px;
 }
 
 .social {
-  margin-left: 40%;
   padding-top: 50px;
   display: flex;
-  text-align: center;
+  margin: 0px 42%;
 }
 .social .icon {
-  color: grey;
   margin: 10px;
 }
-
-/*____________________________________*/
-h2, i {
-  font-size: xx-small;
-}
-
-p {
-  font-size: 7px;
-  padding: 5% 15%;
+.social .icon i {
   color: grey;
-}
-
-.btn {
-  font-size: 6px;
-}
-
-.banner {
-  height: 150px;
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.banner h1 {
   font-size: medium;
-  padding-bottom: 20px;
-}
-.banner h4 {
-  border-top: 0.5px solid white;
-  padding-top: 20px;
-  font-weight: lighter;
-  font-size: xx-small;
-}
-
-.intro {
-  margin: 15px 50px;
-  background-color: white;
-  padding: 20px;
-}
-.intro .far {
-  height: 8px;
-  width: 8px;
-  padding: 10px;
-  margin-bottom: 20px;
-}
-
-.gallery {
-  gap: 5px;
-  margin: 15px 50px;
-}
-.gallery h2 {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 8px;
-}
-.gallery .pic {
-  height: 60px;
-}
-.gallery .col {
-  background-color: white;
-  padding: 0px 0px 5px 0px;
-}
-
-.conclusion {
-  padding: 20px 50px 15px 50px;
-}
-
-.hr {
-  width: 100px;
-}
-
-.social {
-  margin-left: 40%;
-  padding-top: 20px;
-}
-.social .icon {
-  font-size: 6px;
-  margin: 3px;
-}
-
-footer p {
-  font-size: 6px;
 }
 
 /*____________________________________*/
-h2, i {
-  font-size: small;
-}
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  h2, i {
+    font-size: xx-small;
+  }
 
-p {
-  font-size: 10px;
-  padding: 5% 15%;
-}
+  p {
+    font-size: 7px;
+    padding: 5% 15%;
+    color: red;
+  }
 
-.btn {
-  font-size: 8px;
-}
+  .btn {
+    font-size: 6px;
+  }
 
-.banner {
-  height: 300px;
-  background-size: 100%;
-}
-.banner h1 {
-  font-size: xx-large;
-}
-.banner h4 {
-  padding-top: 20px;
-  font-size: small;
-}
+  .banner {
+    height: 150px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .banner h1 {
+    font-size: medium;
+    padding-bottom: 20px;
+  }
+  .banner h4 {
+    border-top: 0.5px solid white;
+    padding-top: 20px;
+    font-weight: lighter;
+    font-size: xx-small;
+  }
 
-.intro {
-  margin: 20px 120px;
-  background-color: white;
-  padding: 20px;
-}
-.intro .far {
-  height: 8px;
-  width: 8px;
-  padding: 10px;
-  margin-bottom: 20px;
-}
+  .intro {
+    margin: 15px 50px;
+    background-color: white;
+    padding: 20px;
+  }
+  .intro .far {
+    height: 8px;
+    width: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
 
-.gallery {
-  gap: 8px;
-  margin: 20px 120px;
-}
-.gallery h2 {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: small;
-}
-.gallery .pic {
-  height: 180px;
-}
-.gallery .col {
-  padding: 0px 0px 20px 0px;
-}
+  .gallery {
+    gap: 5px;
+    margin: 15px 50px;
+  }
+  .gallery h2 {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 8px;
+  }
+  .gallery .pic {
+    height: 60px;
+  }
+  .gallery .col {
+    background-color: white;
+    padding: 0px 0px 5px 0px;
+  }
 
-.conclusion {
-  padding: 20px 80px;
-}
+  .conclusion {
+    padding: 20px 50px 15px 50px;
+  }
 
-.hr {
-  width: 100px;
-}
+  .hr {
+    width: 100px;
+  }
 
-.social {
-  margin-left: 43%;
-  padding-top: 20px;
-}
-.social .icon {
-  font-size: 6px;
-  margin: 4px;
-}
+  .social {
+    margin-left: 40%;
+    padding-top: 20px;
+  }
+  .social .icon {
+    font-size: 6px;
+    margin: 3px;
+  }
 
-footer p {
-  font-size: 8px;
+  footer p {
+    font-size: 6px;
+  }
+}
+/*____________________________________*/
+@media screen and (min-content: 577px) and (max-content: 769px) {
+  h2, i {
+    font-size: small;
+  }
+
+  p {
+    font-size: 10px;
+    padding: 5% 15%;
+  }
+
+  .btn {
+    font-size: 8px;
+  }
+
+  .banner {
+    height: 300px;
+    background-size: 100%;
+  }
+  .banner h1 {
+    font-size: xx-large;
+  }
+  .banner h4 {
+    padding-top: 20px;
+    font-size: small;
+  }
+
+  .intro {
+    margin: 20px 120px;
+    background-color: white;
+    padding: 20px;
+  }
+  .intro .far {
+    height: 8px;
+    width: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .gallery {
+    gap: 8px;
+    margin: 20px 120px;
+  }
+  .gallery h2 {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: small;
+  }
+  .gallery .pic {
+    height: 180px;
+  }
+  .gallery .col {
+    padding: 0px 0px 20px 0px;
+  }
+
+  .conclusion {
+    padding: 20px 80px;
+  }
+
+  .hr {
+    width: 100px;
+  }
+
+  .social {
+    margin-left: 43%;
+    padding-top: 20px;
+  }
+  .social .icon {
+    font-size: 6px;
+    margin: 4px;
+  }
+
+  footer p {
+    font-size: 8px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

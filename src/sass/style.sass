@@ -6,16 +6,16 @@ body
     font-family: roboto
 
 h2, i
-    font-size: medium
+    font-size: xx-large
     letter-spacing: 1.8px
     text-transform: uppercase
     color: grey
 
 p
     text-align: center
-    font-size: xx-small
-    padding: 5% 15%
+    font-size: medium
     color: grey
+    padding: 40px
 
 .btn
     color: grey
@@ -24,7 +24,7 @@ p
     border-radius: 1px
     text-transform: uppercase
     width: max-content
-    font-size: xx-small
+    font-size: small
     background-color: white
 
 .banner
@@ -34,6 +34,7 @@ p
     text-align: center
     color: white
     background-image: url(../img/banner.jpg)
+    width: 100%
     height: 600px
     h1
         font-family: pacifico
@@ -49,27 +50,31 @@ p
 
 
 .intro
+    width: 80%
     text-align: center
     justify-content: center
     align-items: center
-    margin: 50px 150px
+    margin: 40px auto
     background-color: white
-    padding: 50px
+    padding: 40px 0px
     .far
         border: 1px solid grey
         border-radius: 50%
         height: 17px
         width: 17px
-        padding: 10px
+        padding: 17px
         margin-bottom: 20px
+    p
+        padding: 20px 220px
     button
         text-align: center
 
 .gallery
+    width: 80%
     display: grid
-    gap: 10px
+    gap: 20px
     text-align: center
-    margin: 50px 150px
+    margin: 50px auto
     h2
         color: rgba(#FFFFFF, 0.6)
         font-size: medium
@@ -83,7 +88,7 @@ p
         height: 200px
     .col
         background-color: white
-        padding: 0px 0px 30px 0px
+        padding: 0px 0px 50px 0px
     .card1
         grid-column: 1/2
         grid-row: 1/2
@@ -112,143 +117,141 @@ p
     .btn
         background-color: #F1F1F1
 .hr
-    display: flex
-    justify-content: center
+    margin: 0px auto
     width: 100px
 
 .social
-    margin-left: 40%
     padding-top: 50px
     display: flex
-    text-align: center
+    margin: 0px 42%
     .icon
-        color: grey
         margin: 10px
-
+        i
+            color: grey
+            font-size: medium
 
 
 
 /*____________________________________*/
-@media screen and (max-content: 576px)
-h2, i
-    font-size: xx-small
-
-p
-    font-size: 7px
-    padding: 5% 15%
-    color: grey
-.btn
-    font-size: 6px
-    
-.banner
-    height: 150px
-    background-size: 100%
-    background-repeat: no-repeat
-    h1
-        font-size: medium
-        padding-bottom: 20px
-    h4
-        border-top: 0.5px solid white
-        padding-top: 20px
-        font-weight: lighter
+@media screen and (min-width: 0px) and (max-width: 576px)
+    h2, i
         font-size: xx-small
 
-.intro
-    margin: 15px 50px
-    background-color: white
-    padding: 20px
-    .far
-        height: 8px
-        width: 8px
-        padding: 10px
-        margin-bottom: 20px
-
-
-.gallery
-    gap: 5px
-    margin: 15px 50px
-    h2
-        color: rgba(#FFFFFF, 0.6)
-        font-size: 8px
-    .pic
-        height: 60px
-    .col
-        background-color: white
-        padding: 0px 0px 5px 0px
-
-.conclusion
-    padding: 20px 50px 15px 50px
-
-.hr
-    width: 100px
-
-.social
-    margin-left: 40%
-    padding-top: 20px
-    .icon
-        font-size: 6px
-        margin: 3px
-footer
     p
+        font-size: 7px
+        padding: 5% 15%
+        color: red
+    .btn
         font-size: 6px
+        
+    .banner
+        height: 150px
+        background-size: 100%
+        background-repeat: no-repeat
+        h1
+            font-size: medium
+            padding-bottom: 20px
+        h4
+            border-top: 0.5px solid white
+            padding-top: 20px
+            font-weight: lighter
+            font-size: xx-small
+
+    .intro
+        margin: 15px 50px
+        background-color: white
+        padding: 20px
+        .far
+            height: 8px
+            width: 8px
+            padding: 10px
+            margin-bottom: 20px
+
+
+    .gallery
+        gap: 5px
+        margin: 15px 50px
+        h2
+            color: rgba(#FFFFFF, 0.6)
+            font-size: 8px
+        .pic
+            height: 60px
+        .col
+            background-color: white
+            padding: 0px 0px 5px 0px
+
+    .conclusion
+        padding: 20px 50px 15px 50px
+
+    .hr
+        width: 100px
+
+    .social
+        margin-left: 40%
+        padding-top: 20px
+        .icon
+            font-size: 6px
+            margin: 3px
+    footer
+        p
+            font-size: 6px
 
 
 
 /*____________________________________*/
 @media screen and (min-content: 577px) and (max-content: 769px)
-
-h2, i
-    font-size: small
-
-p
-    font-size: 10px
-    padding: 5% 15%
-
-.btn
-    font-size: 8px
-    
-.banner
-    height: 300px
-    background-size: 100%
-    h1
-        font-size: xx-large
-    h4
-        padding-top: 20px
+    h2, i
         font-size: small
 
-.intro
-    margin: 20px 120px
-    background-color: white
-    padding: 20px
-    .far
-        height: 8px
-        width: 8px
-        padding: 10px
-        margin-bottom: 20px
-
-.gallery
-    gap: 8px
-    margin: 20px 120px
-    h2
-        color: rgba(#FFFFFF, 0.6)
-        font-size: small
-    .pic
-        height: 180px
-    .col
-        padding: 0px 0px 20px 0px
-
-.conclusion
-    padding: 20px 80px
-
-.hr
-    width: 100px
-
-.social
-    margin-left: 43%
-    padding-top: 20px
-    .icon
-        font-size: 6px
-        margin: 4px
-footer
     p
+        font-size: 10px
+        padding: 5% 15%
+
+    .btn
         font-size: 8px
+        
+    .banner
+        height: 300px
+        background-size: 100%
+        h1
+            font-size: xx-large
+        h4
+            padding-top: 20px
+            font-size: small
+
+    .intro
+        margin: 20px 120px
+        background-color: white
+        padding: 20px
+        .far
+            height: 8px
+            width: 8px
+            padding: 10px
+            margin-bottom: 20px
+
+    .gallery
+        gap: 8px
+        margin: 20px 120px
+        h2
+            color: rgba(#FFFFFF, 0.6)
+            font-size: small
+        .pic
+            height: 180px
+        .col
+            padding: 0px 0px 20px 0px
+
+    .conclusion
+        padding: 20px 80px
+
+    .hr
+        width: 100px
+
+    .social
+        margin-left: 43%
+        padding-top: 20px
+        .icon
+            font-size: 6px
+            margin: 4px
+    footer
+        p
+            font-size: 8px
