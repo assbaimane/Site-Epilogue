@@ -16,7 +16,7 @@ h2, i {
 
 p {
   text-align: center;
-  font-size: x-small;
+  font-size: xx-small;
   padding: 5% 15%;
   color: grey;
 }
@@ -150,6 +150,85 @@ p {
 .social .icon {
   color: grey;
   margin: 10px;
+}
+
+/*____________________________________*/
+h2, i {
+  font-size: xx-small;
+}
+
+p {
+  font-size: 7px;
+  padding: 5% 15%;
+  color: grey;
+}
+
+.btn {
+  font-size: 6px;
+}
+
+.banner {
+  height: 150px;
+  background-size: 100%;
+}
+.banner h1 {
+  font-size: large;
+  padding-bottom: 20px;
+}
+.banner h4 {
+  border-top: 0.5px solid white;
+  padding-top: 20px;
+  font-weight: lighter;
+  font-size: xx-small;
+}
+
+.intro {
+  margin: 15px 50px;
+  background-color: white;
+  padding: 20px;
+}
+.intro .far {
+  height: 8px;
+  width: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  gap: 5px;
+  margin: 15px 50px;
+}
+.gallery h2 {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 8px;
+}
+.gallery .pic {
+  height: 60px;
+}
+.gallery .col {
+  background-color: white;
+  padding: 0px 0px 5px 0px;
+}
+
+.conclusion {
+  padding: 20px 50px 15px 50px;
+}
+
+.hr {
+  width: 100px;
+}
+
+.social {
+  margin-left: 40%;
+  padding-top: 20px;
+}
+.social .icon {
+  font-size: 6px;
+  margin: 3px;
+}
+
+footer p {
+  font-size: 6px;
 }
 
 /*# sourceMappingURL=style.css.map */
